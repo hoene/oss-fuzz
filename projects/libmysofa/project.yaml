@@ -1,0 +1,9 @@
+homepage: "https://github.com/hoene/libmysofa"
+language: c++
+primary_contact: "christian.hoene@symonics.com"
+sanitizers:
+  - address
+  - memory:
+     experimental: True
+  - undefined
+main_repo: 'https://github.com/hoene/libmysofa.git'
